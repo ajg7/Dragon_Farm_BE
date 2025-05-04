@@ -50,12 +50,6 @@ appsettings.*.json
 # Scaffolding
 ScaffoldingReadMe.txt
 
-## Database ##
-##############
-# EF Migrations (if you want to check them in, remove this)
-**/Migrations/
-*.dbmdl
-
 ## OS files ##
 ##############
 # macOS
