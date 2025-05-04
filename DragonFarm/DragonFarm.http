@@ -1,0 +1,6 @@
+@DragonFarm_HostAddress = http://localhost:5145
+
+GET {{DragonFarm_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

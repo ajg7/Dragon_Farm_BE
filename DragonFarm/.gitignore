@@ -1,0 +1,72 @@
+## IDE / Editor ##
+##################
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+## Build outputs ##
+###################
+[Bb]in/
+[Oo]bj/
+out/
+build/
+publish/
+
+## NuGet / dotnet ##
+####################
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+
+# dotnet Core artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Logs ##
+##########
+*.log
+logs/
+
+## Runtime ##
+#############
+# User-secrets (if you use the Secret Manager tool)
+secrets.json
+# Local appsettings overrides
+appsettings.*.json
+
+## Tools ##
+###########
+# Scaffolding
+ScaffoldingReadMe.txt
+
+## Database ##
+##############
+# EF Migrations (if you want to check them in, remove this)
+**/Migrations/
+*.dbmdl
+
+## OS files ##
+##############
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+ehthumbs.db
+
+## Optional: node/npm if you use frontend tooling ##
+###################################################
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
